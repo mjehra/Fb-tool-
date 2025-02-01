@@ -1,11 +1,13 @@
-#</ Programmed | @A_6_60 - @OK_PY >
+from cfonts import render, say      
+ehraa = render('Ehra', colors=['green', 'white'], align='center')
+print (ehraa)
 import datetime;now = datetime.date.today();import webbrowser;webbrowser
 import os,sys,json,uuid,string,random,requests
 from cfonts import render, say
 from concurrent.futures import ThreadPoolExecutor
 #__________________| COLOUR |__________________#
-print('\x1b[38;5;46m  ادخل توكن بوتك');token = input('[⊰⊱]  TOKEN : ')
-print('  ادخل ايدي بوتك');ID=input('[⊰⊱]  ID : ');rd = requests.get('https://api.telegram.org/bot' + str(token) + '/sendMessage?chat_id=' + str(ID) + '&text= ┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉\n╮❲ Tool running successfully ❳\n┤❲ The catch will be sent to your bot ❳ \n┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉').text
+print('\x1b[38;5;46m');token = input('[⊰⊱]  TOKEN : ')
+print('');ID=input('[⊰⊱]  ID : ');rd = requests.get('https://api.telegram.org/bot' + str(token) + '/sendMessage?chat_id=' + str(ID) + '&text= ┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉\n╮❲ Tool running successfully ❳\n┤❲ The catch will be sent to your bot ❳ \n┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉').text
 A = '\x1b[1;97m';R = '\x1b[38;5;196m';Y = '\033[1;33m';G = '\x1b[38;5;46m';B = '\x1b[38;5;8m';G1 = '\x1b[38;5;48m';G2 = '\x1b[38;5;47m';G3 = '\x1b[38;5;48m';G4 = '\x1b[38;5;49m';G5 = '\x1b[38;5;50m';X = '\33[1;34m';X1 = '\x1b[38;5;14m';X2 = '\x1b[38;5;123m';X3 = '\x1b[38;5;122m';X4 = '\x1b[38;5;86m';X5 = '\x1b[38;5;121m';S = '\x1b[1;96m';M = '\x1b[38;5;205m';bblack="\033[1;31m"; M="\033[1;31m";H="\033[1;33m";byellow="\033[1;33m";bblue="\033[1;34m";P="\033[1;35m";C="\033[1;36m";B="\033[1;37m";G="\033[1;32m";R="\033[1;31m";AA="\033[1;32m";BB="\033[1;31m";CC="\033[1;36m";X='\033[1;31m';XX="\x1b[38;5;196m";GGG="\x1b[38;5;214m";ccrush="\033[1;30m";R="\033[1;31m";XX="\x1b[38;5;196m";
 #---------#
 import os,requests,json,time,re,random,sys,uuid,string,subprocess,zlib,platform
